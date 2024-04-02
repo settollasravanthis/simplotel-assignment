@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #000000;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    height: 50px;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 70px;
+}
+
+/* Hero Banner styles */
+.hero-banner {
+    position: relative;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-hero {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    padding: 30px 7%;
+    background: linear-gradient(to right, #000000, #909090);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+/* Text Wrapper styles */
+.text-wrapper {
+    display: flex;
+    justify-content:space-around;
+    margin: 0 0 20px;
+    background: #f2f2f2;
+}
+
+.text {
+    background-color: #f2f2f2;
+    padding:20px;
+    margin-right: 10px;
+    height: auto;
+    text-align: center;
+}
+
+h2.card-header {
+    font-size:3rem;
+    padding:1% 0 0 4%
+}
+
+.card-text {
+    padding:5%;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    margin:0 0 25px 25px;
+    cursor: pointer;
+}
+
+/* Card Layout styles */
+.card-layout {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1% 4%;
+}
+
+.card {
+    flex: 0 0 30%;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 1vw;
+}
+.card:nth-child(1) {
+  text-align: left;
+}
+
+.card:nth-child(2) {
+  text-align: center;
+}
+
+.card:nth-child(3) {
+  text-align: right;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+.logo img{
+    width:50px;
+    height:50px
+}
+
+.icons {
+    width:100px
+}
+
+.icons .fa-brands, .fab{
+    font-size:1.8rem;
+    color:#000;
+    padding:0 5px
+}
